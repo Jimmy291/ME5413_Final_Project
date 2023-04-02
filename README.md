@@ -7,7 +7,7 @@ NUS ME5413 Autonomous Mobile Robotics Final Project - Group 21
 ![C++](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=c%2B%2B&logoColor=white&color=2bbc8a)
 ![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=Python&logoColor=white&color=2bbc8a)
 
-![cover_image](src/me5413_world/media/robot.png)
+![cover_image](src/me5413_world/media/main.png)
 
 ## Dependencies
 
@@ -144,7 +144,7 @@ Then, in the second terminal:
 roslaunch robot_nav nav.launch
 ```
 
-#![rviz_navigation_image](src/me5413_world/media/rviz_navigation.png)
+#![rviz_navigation_image](src/me5413_world/media/robot.png)
 
 
 The [ME5413_Final_Project](https://github.com/Jimmy291/ME5413_Final_Project) is released under the [MIT License](https://github.com/Jimmy291/ME5413_Final_Project/blob/main/LICENSE)
