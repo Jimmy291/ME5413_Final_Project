@@ -54,7 +54,12 @@ To install this package, follow the following steps
 # Clone your own fork of this repo (assuming home here `~/`)
 cd
 git clone https://github.com/Jimmy291/ME5413_Final_Project.git
-cd ME5413_Final_Project
+cd ME5413_Final_Project/src
+
+
+# Clone the repo for costmap prohibition layer
+git clone git@github.com:rst-tu-dortmund/costmap_prohibition_layer.git
+cd ..
 
 # Install all dependencies
 rosdep install --from-paths src --ignore-src -r -y
