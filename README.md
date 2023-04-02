@@ -56,6 +56,8 @@ cd
 git clone https://github.com/Jimmy291/ME5413_Final_Project.git
 cd ME5413_Final_Project/src
 
+# Clone the repo for SLAM Toolbox (for noetic), for other ros version, change the branch
+git clone -b noetic-devel https://github.com/SteveMacenski/slam_toolbox
 
 # Clone the repo for costmap prohibition layer
 git clone git@github.com:rst-tu-dortmund/costmap_prohibition_layer.git
