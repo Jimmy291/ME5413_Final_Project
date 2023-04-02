@@ -137,7 +137,9 @@ roslaunch me5413_world manual.launch
 
 ### 2.2. Autonomous Navigation
 
-Once completed **Step 2** mapping and saved your map, quit the mapping process.
+![rviz_navigation_image](src/me5413_world/media/robot.png)
+
+Once completed **Step 1** mapping and saved your map, quit the mapping process.
 
 Then, in the second terminal:
 
@@ -146,7 +148,9 @@ Then, in the second terminal:
 roslaunch robot_nav nav.launch
 ```
 
-![rviz_navigation_image](src/me5413_world/media/robot.png)
+The right panel allow you to choose the desired goal location of the robot.
+
+![rviz_navigation_image](src/me5413_world/media/panel.png)
 
 
 The [ME5413_Final_Project](https://github.com/Jimmy291/ME5413_Final_Project) is released under the [MIT License](https://github.com/Jimmy291/ME5413_Final_Project/blob/main/LICENSE)
