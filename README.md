@@ -46,6 +46,7 @@ This repo is a ros workspace, containing three rospkgs:
 * `me5413_world` the main pkg containing the gazebo world, and the launch files
 * `costmap_prohibition_layer` the main pkg containing the function to create prohibited areas
 * `robot_nav` the main pkg containing the navigation stack
+* 'slam_toolbox' one of the pkgs to perform SLAM
 
 
 To install this package, follow the following steps
@@ -108,11 +109,27 @@ This command will launch the gazebo with the project world
 roslaunch me5413_world world.launch
 ```
 ### 1. Mapping
-
+Several methods of mapping are used, do relaunch **Step 0** after every instance of mapping
+### 1.1 SLAM Toolbox  
 After launching **Step 0**, in the second terminal:
 
 ```bash
-# Launch GMapping
+# Launch SLAM Toolbox's Karto SLAM
+roslaunch me5413_world STmap.launch
+```
+
+After finishing mapping, run the following command in the thrid terminal to save the map:
+
+```bash
+# Save the map as `my_map` in the `maps/` folder
+roscd me5413_world/maps/
+rosrun map_server map_saver -f my_map map:=/map
+```
+### 1.2 GMapping
+After launching **Step 0**, in the second terminal:
+
+```bash
+# Launch SLAM Toolbox's Karto SLAM
 roslaunch me5413_world mapping.launch
 ```
 
@@ -123,6 +140,8 @@ After finishing mapping, run the following command in the thrid terminal to save
 roscd me5413_world/maps/
 rosrun map_server map_saver -f my_map map:=/map
 ```
+
+
 
 ![rviz_nmapping_image](src/me5413_world/media/rviz_mapping.png)
 
