@@ -1,4 +1,4 @@
-# ME5413_Final_Project
+# ME5413_Final_Project_Group_21
 
 NUS ME5413 Autonomous Mobile Robotics Final Project - Group 21
 
@@ -131,7 +131,7 @@ roscd me5413_world/maps/
 rosrun map_server map_saver -f my_map map:=/map
 ```
 
-#![rviz_nmapping_image](src/me5413_world/media/rviz_mapping.png)
+![rviz_nmapping_image](src/me5413_world/media/rviz_mapping.png)
 
 ### 3. Navigation
 
@@ -144,7 +144,7 @@ Then, in the second terminal:
 roslaunch robot_nav nav.launch
 ```
 
-#![rviz_navigation_image](src/me5413_world/media/robot.png)
+![rviz_navigation_image](src/me5413_world/media/robot.png)
 
 
 The [ME5413_Final_Project](https://github.com/Jimmy291/ME5413_Final_Project) is released under the [MIT License](https://github.com/Jimmy291/ME5413_Final_Project/blob/main/LICENSE)
