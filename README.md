@@ -46,7 +46,7 @@ This repo is a ros workspace, containing three rospkgs:
 * `me5413_world` the main pkg containing the gazebo world, and the launch files
 * `costmap_prohibition_layer` the main pkg containing the function to create prohibited areas
 * `robot_nav` the main pkg containing the navigation stack
-* 'slam_toolbox' one of the pkgs to perform SLAM
+* `slam_toolbox` one of the pkgs to perform SLAM
 
 
 To install this package, follow the following steps
